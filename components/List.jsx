@@ -32,7 +32,8 @@ function Item ({item}){
   const boxShadow = useRaisedShadow(y);
 
   return(
-    <Reorder.Item value={item} id={item} style={{boxShadow, y}}>
+    // <li></li>
+    <Reorder.Item value={item} id={item} style={{boxShadow, y}} className="bg-white w-full p-4 rounded-sm text-3xl hover:cursor-pointer">
       <span>{item}</span>
     </Reorder.Item>
   )
@@ -42,12 +43,13 @@ function List(){
   const [items, setItems] = useState(initialItems)
 
   return (
-    <main className='bg-[#ffaa00] flex justify-center items-center'>
-      <Reorder.Group axis="y" onReorder={setItems} values={items}>
-        {items.map((item) => (
-          <Item key={item} item={item} />
-        ))}
-      </Reorder.Group>
+    <main className='bg-[#ffaa00] h-screen w-full flex justify-center items-center'>
+        {/* <ul></ul> */}
+        <Reorder.Group axis="y" onReorder={setItems} values={items} className="bg-red-500 w-5/6 flex flex-wrap space-y-2">
+          {items.map((item) => (
+            <Item key={item} item={item} />
+          ))}
+        </Reorder.Group>
     </main>
   )
 }
