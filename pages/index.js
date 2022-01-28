@@ -1,5 +1,6 @@
 import Head from 'next/head'
-import Grid1 from '../components/Grid1'
+import List from '../components/List'
+
 
 export default function Home() {
   return (
@@ -9,8 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Grid1 />
-
+      <List />
 
     </>
   )

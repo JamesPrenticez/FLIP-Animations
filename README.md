@@ -19,3 +19,6 @@ Grid properties are not directly animatable.
 To animate between them, you must save their visual state before the change (width, height, absolute position with regards to the viewport)
 make the change to the properties, then animate from the saved values to the new values. This sort of transition commonly is called the FLIP technique.
 Flip technique in React https://souporserious.com/build-a-simple-flip-animation-in-react/
+
+## React Framer Motion
+Drag Drop List - https://codesandbox.io/s/framer-motion-5-drag-to-reorder-lists-uonye?from-embed=&file=/src/App.tsx
