@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import List from '../components/List'
+import DNDGrid from '../components/DNDGrid'
 
 
 export default function Home() {
@@ -10,7 +10,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <List />
+      {/* <List /> */}
+      <DNDGrid />
+
 
     </>
   )
