@@ -1,5 +1,9 @@
 import Head from 'next/head'
-import DNDGrid from '../components/DNDGrid'
+// import DNDGrid from '../components/DNDGrid'
+//import FramerGrid from '../components/DNDFramerGrid'
+import FramerMotion from "../components/js/FramerMotion";
+//import WTF from '../components/WTF';
+
 
 
 export default function Home() {
@@ -11,7 +15,9 @@ export default function Home() {
       </Head>
 
       {/* <List /> */}
-      <DNDGrid />
+      {/* <DNDGrid /> */}
+      <FramerMotion />
+
 
 
     </>

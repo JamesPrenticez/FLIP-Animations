@@ -22,3 +22,9 @@ Flip technique in React https://souporserious.com/build-a-simple-flip-animation-
 
 ## React Framer Motion
 Drag Drop List - https://codesandbox.io/s/framer-motion-5-drag-to-reorder-lists-uonye?from-embed=&file=/src/App.tsx
+
+## React dnd kit
+npm install @dnd-kit/core
+
+Convert tsx to jsx
+npx tsc --jsx preserve -t es2020 --outDir js --noEmit false

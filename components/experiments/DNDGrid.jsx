@@ -24,7 +24,7 @@ import { CSS } from "@dnd-kit/utilities";
 export const Item = forwardRef(({ id, ...props }, ref) => {
   return (
     <div
-      className="bg-red-600 w-full h-full"
+      className="bg-red-600 w-[400px] h-[400px]"
       {...props}
       ref={ref}
     >
@@ -91,9 +91,14 @@ export default function DNDGrid() {
       >
         <div className="w-4/6 h-4/6 flex justify-center flex-wrap -mt-40">
           <div className="h-20 w-full bg-black mb-4">
-            {/* buttons */}
+            <button 
+              className="bg-green-700 h-full w-1/6 text-yellow-300"
+              onClick={() => setData(arrayMove(["1", "2", "3", "4", "5", "6"], 0, 5))}
+            >
+              FILTER
+            </button>            
           </div>
-            <div className="w-full h-full grid items-center max-w-full grid-cols-3 gap-4">
+            <div className="grid items-center max-w-full grid-cols-3 grid-rows-2 gap-4">
             <SortableContext items={data} strategy={rectSortingStrategy}>
               {data.map((item, index) => {
                 return (
