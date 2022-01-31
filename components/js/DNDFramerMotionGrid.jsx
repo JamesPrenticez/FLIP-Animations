@@ -124,7 +124,6 @@ export default function FramerMotion() {
           <ul className="grid grid-cols-4 gap-4 p-4">
                   {[...items]
                     .filter(item => !filteredIds.includes(item.id))// if not in filtered list
-                    
                     .map(({id, title}) => (
                       <Item
                         id={id}
@@ -138,3 +137,12 @@ export default function FramerMotion() {
       </div>
     </>);
 }
+
+
+// Forked from https://codesandbox.io/s/currying-night-8z16v?file=/src/FramerMotion.tsx
+// Converted from TSX to JSX with ```npx tsc --jsx preserve -t es2020 --outDir js --noEmit false```
+// Coverted use array of object rather than just and array indexOf => findIndex()
+// Added filter/sort functionality
+// Coverted CSS to use tailwind
+
+// Would be cool to add this drop effect https://codesandbox.io/s/dnd-sortable-list-2-gvgr1
