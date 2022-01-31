@@ -4,7 +4,7 @@ export const data = [
     title: "SelfRegulator",
     desc: "Track tasks every day of the week",
     src: "/img/selfregulator.png",
-    tags: ['hobby'],
+    tags: ['database'],
     color: 'radial-gradient(circle, rgba(0,255,29,1) 0%, rgba(159,255,0,1) 100%)',
   },
   {
@@ -21,7 +21,7 @@ export const data = [
     title: "Poppins",
     desc: "Ecommerce Clothing Store",
     src: "/img/poppins.png",
-    tags: ['hobby'],
+    tags: ['database'],
     color: 'radial-gradient(circle, rgba(255,0,255,1) 0%, rgba(171,0,255,1) 83%)'
   },
   {
@@ -61,7 +61,7 @@ export const data = [
     title: "ConJob",
     desc: "Upload & Download CSV to database",
     src: "/img/conjob.png",
-    tags: ['hobby'],
+    tags: ['database'],
     color: 'radial-gradient(circle, rgba(37,99,235,1) 0%, rgba(30,64,175,1) 100%)'
   },
 ]
