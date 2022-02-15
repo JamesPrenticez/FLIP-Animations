@@ -64,4 +64,12 @@ export const data = [
     tags: ['database'],
     color: 'radial-gradient(circle, rgba(37,99,235,1) 0%, rgba(30,64,175,1) 100%)'
   },
+  {
+    id: 9,
+    title: "Developer.Blog",
+    desc: "Read, write and comment on blog posts",
+    src: "/img/blog.png",
+    tags: ['database'],
+    color: 'radial-gradient(circle, rgba(250,204,21,1) 0%, rgba(22,163,74,1) 100%);'
+  },
 ]
