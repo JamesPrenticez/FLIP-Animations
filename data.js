@@ -15,14 +15,13 @@ export const data = [
     tags: ['group'],
     color: 'radial-gradient(circle, rgba(251,191,36,1) 0%, rgba(220,38,38,1) 100%)'
   },
-
   {
     id: 3,
-    title: "Poppins",
-    desc: "Ecommerce Clothing Store",
-    src: "/img/poppins.png",
+    title: "Developer.Blog",
+    desc: "Read, write and comment on blog posts",
+    src: "/img/blog.png",
     tags: ['database'],
-    color: 'radial-gradient(circle, rgba(255,0,255,1) 0%, rgba(171,0,255,1) 83%)'
+    color: 'radial-gradient(circle, rgba(250,204,21,1) 0%, rgba(22,163,74,1) 100%)'
   },
   {
     id: 4,
@@ -42,11 +41,11 @@ export const data = [
   },
   {
     id: 6,
-    title: "Spotify Clone",
-    desc: "Create and share music playlists",
-    src: "/img/spotifyclone.png",
-    tags: ['clone'],
-    color: 'radial-gradient(circle, rgba(29,185,84,1) 0%, rgba(29,161,185,1) 92%)'
+    title: "Poppins",
+    desc: "Ecommerce Clothing Store",
+    src: "/img/poppins.png",
+    tags: ['database'],
+    color: 'radial-gradient(circle, rgba(255,0,255,1) 0%, rgba(171,0,255,1) 83%)'
   },
   {
     id: 7,
@@ -64,12 +63,5 @@ export const data = [
     tags: ['database'],
     color: 'radial-gradient(circle, rgba(37,99,235,1) 0%, rgba(30,64,175,1) 100%)'
   },
-  {
-    id: 9,
-    title: "Developer.Blog",
-    desc: "Read, write and comment on blog posts",
-    src: "/img/blog.png",
-    tags: ['database'],
-    color: 'radial-gradient(circle, rgba(250,204,21,1) 0%, rgba(22,163,74,1) 100%);'
-  },
+
 ]
