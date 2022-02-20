@@ -17,9 +17,6 @@ export default function Home() {
       {/* <List /> */}
       {/* <DNDGrid /> */}
       <FramerMotionGrid />
-
-
-
     </>
   )
 }
