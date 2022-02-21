@@ -36,10 +36,10 @@ function FramerMotionGrid() {
       >
         {/* Post Display Card */}
         <AnimatePresence>
-        {filtered.map((item, index) => {
+        {filtered.map((item) => {
           return (
             <motion.div layout
-              key={index}
+              key={item.id}
               animate = {{ opacity: 1}}
               initial = {{ opacity: 0}}
               exit = {{ opacity: 0}}
@@ -61,11 +61,11 @@ function FramerMotionGrid() {
 
                 <div className="p-2 h-[6rem] bg-black">
                   <div 
-                    className="bg-clip-text text-transparent"
+                    className="bg-clip-text"
                     style={{backgroundImage: item.color}}
                   >
-                    <p className="text-[1.125rem] font-bold ">{item.title}</p>
-                    <p className="text-[1rem]">{item.desc}</p>
+                    <p className="text-[1.125rem] font-bold text-transparent">{item.title}</p>
+                    <p className="text-[1rem] text-white">{item.desc}</p>
                   </div>
                 </div>
               </div>

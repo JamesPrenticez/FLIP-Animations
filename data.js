@@ -1,11 +1,19 @@
 export const data = [
   {
-    id: 1,
+    id: 0,
     title: "SelfRegulator",
     desc: "Track tasks every day of the week",
     image: "",
     tags: ['all', 'hobby', 'datebase', 'authentication'],
     color: 'radial-gradient(circle, rgba(22,163,74,1) 0%, rgba(0,255,29,1) 100%)'
+  },
+  {
+    id: 1,
+    title: "ConJob",
+    desc: "Upload & Download CSV to database",
+    image: "",
+    tags: ['all', 'hobby', 'database'],
+    color: 'radial-gradient(circle, rgba(37,99,235,1) 0%, rgba(56,189,248,1) 100%)'
   },
   {
     id: 2,
@@ -55,13 +63,6 @@ export const data = [
     tags: ['all', 'hobby', 'crypto'],
     color: 'radial-gradient(circle, rgba(220,38,38,1) 0%, rgba(251,191,36,1) 100%)'
   },
-  {
-    id: 8,
-    title: "ConJob",
-    desc: "Upload & Download CSV to database",
-    image: "",
-    tags: ['all', 'hobby', 'database'],
-    color: 'radial-gradient(circle, rgba(37,99,235,1) 0%, rgba(56,189,248,1) 100%)'
-  },
+
 
 ]
