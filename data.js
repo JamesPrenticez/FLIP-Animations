@@ -66,3 +66,78 @@ export const data = [
 
 
 ]
+
+export const cohorts = [
+  {
+    id: 1,
+    name: "Matai",
+    src: "/cohorts/matai.png",
+    description: "",
+  },
+  {
+    id: 2,
+    name: "Kotare",
+    src: "/cohorts/kotare.png",
+    description: "",
+  },
+  {
+    id: 3,
+    name: "Mako",
+    src: "/cohorts/mako.png",
+    description: "",
+  },
+  {
+    id: 4,
+    name: "Pohutukawa",
+    src: "/cohorts/pohutukawa.png",
+    description: "",
+  },
+//   {
+//     id: 5,
+//     name: "Roa",
+//     src: "/cohorts/roa.png",
+//     description: "",
+//   },
+//   {
+//     id: 6,
+//     name: "Manaia",
+//     src: "/cohorts/manaia.png",
+//     description: "",
+//   },
+//   {
+//     id: 7,
+//     name: "Horoeka",
+//     src: "/cohorts/horoeka.png",
+//     description: "",
+//   },
+//   {
+//     id: 8,
+//     name: "Hihi",
+//     src: "/cohorts/hihi.png",
+//     description: "",
+//   },
+//   {
+//     id: 9,
+//     name: "Aihe",
+//     src: "/cohorts/aihe.png",
+//     description: "",
+//   },
+//   {
+//     id: 10,
+//     name: "Harakeke",
+//     src: "/cohorts/harakeke.png",
+//     description: "",
+//   },
+//   {
+//     id: 11,
+//     name: "Kāhu",
+//     src: "/cohorts/kahu.png",
+//     description: "",
+//   },
+//   {
+//     id: 12,
+//     name: "Tohorā",
+//     src: "/cohorts/tohora.png",
+//     description: "",
+//   }
+]
